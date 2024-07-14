@@ -1,0 +1,9 @@
+.categoriesList {
+    padding: 14px 10px;
+    font-size: 22px;
+    background-color: #aec6f2;
+    color: #2c3c54;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+.heroContainer {
+    background: url("https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+    background-size: cover;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContainer .text {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.2;
+    background-color: #aec6f2;
+    color: #2c3c54;
+    padding: 16px 8px;
+    border: 2px solid #aec6f2;
+    border-radius: 5px;
+}
+
+.heroContainer .text h2 {
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.heroContainer .text p {
+    font-size: 18px;
+}

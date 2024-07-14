@@ -1,0 +1,32 @@
+.latestContainer {
+    background-color: #aec6f2;
+    color: #2c3c54;
+    text-align: center;
+    padding: 20px 4px;
+}
+
+.latestContainer h2 {
+    padding: 2px;
+}
+
+.latestContainer .hr {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.latestContainer .hr hr {
+    margin: auto;
+    width: 75px;
+    border: 2px solid #2c3c54;
+    border-radius: 5px;
+}
+
+.latestContainer .latestList {
+    text-align: center;
+    margin: auto;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,57 @@
+.mainCard {
+    border: 2px solid #aec6f2;
+    color: #2c3c54;
+    width: 28%;
+    border-radius: 5px;
+    background-color: #aec6f2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 4px;
+}
+
+.mainCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 8px;
+}
+
+.mainCard .cardImg {
+    height: 150px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.mainCard .cardHeading {
+    padding: 8px 4px;
+    font-size: 20px;
+}
+
+.mainCard .cardBody {
+    font-size: 18px;
+    padding: 8px 4px;
+    min-height: 18vh;
+}
+
+.mainCard .cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+    border-top: 2px solid #2c3c54;
+    border-radius: 1px;
+}
+
+.mainCard .cardFooter .cardBtn {
+    font-size: 16px;
+    padding: 4px 8px;
+    border: 2px solid #2c3c54;
+    background-color: #2c3c54;
+    color: #aec6f2;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cardBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 4px;
+}
+
+.cardFooter .italic {
+    font-style: italic;
+}
